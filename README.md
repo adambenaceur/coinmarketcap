@@ -4,7 +4,8 @@
 program that parses through coinmarketcap api using `python`, `requests`, and `prettytable` to generate the top 100 cryptocurrencies
 
 ### to run: 
-download repo and input commands ``` python3 coinmarketcap.py ``` in the root folder (for demonstration purposes only top 10 cryptocurrencies are shown)
+download repo and input commands ``` python3 coinmarketcap.py ``` in the root folder  <br>  
+(for demonstration purposes only top 10 cryptocurrencies are shown)
 
 ![image](https://user-images.githubusercontent.com/29616144/163905674-f26970ad-12f8-4ecd-921f-280654ad72e3.png)
 
