@@ -9,8 +9,7 @@ headers = {
   'X-CMC_PRO_API_KEY': '9bcbb4c7-3b19-40a4-9864-1bf80d679a9d',
 }
 
-listings_data = requests.get(listings_api,headers=headers).json()
-listings_data = listings_data['data']
+listings_data = requests.get(listings_api,headers=headers).json()['data']
 
 
 table = PrettyTable()
