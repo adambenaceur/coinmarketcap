@@ -1,7 +1,7 @@
 <h1 align='center'> <img src='./CMC.png#gh-light-mode-only'  width='300px'/> <img src='./CMC-light.png#gh-dark-mode-only' width='300px'/>  </h1>
 
 ### Overview: 
-program that parses through coinmarketcap api using `python`, `requests`, and `prettyable` to generate the top 100 cryptocurrencies
+program that parses through coinmarketcap api using `python`, `requests`, and `prettytable` to generate the top 100 cryptocurrencies
 
 ### to run: 
 download repo and input commands ``` python3 coinmarketcap.py ``` in the root folder
