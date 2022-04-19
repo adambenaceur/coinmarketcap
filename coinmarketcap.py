@@ -2,7 +2,7 @@ import requests
 from prettytable import PrettyTable
 
 listings_api = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/' \
-               'listings/latest?sort=market_cap&start=1&limit=5000&convert=USD'
+               'listings/latest?sort=market_cap&start=1&limit=100&convert=USD'
 
 headers = {
   'content-type': 'application/json',
