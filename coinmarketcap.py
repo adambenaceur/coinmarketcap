@@ -34,6 +34,32 @@ for coin in listings_data:
                    coin_data['percent_change_7d']])
     
 
-table.sortby = table.field_names[4]
-table.reversesort = True
-print(table)
+
+field = input('''
+Press: 
+1. Sort by price
+2. Sort by 24 Hour Volume
+3. Sort by MarketCap
+4. Sort by 1 Hour Change
+5. Sort by 24 Hour Change
+6. Sort by 7 Day Change
+
+''')
+try:
+  field = int(field)
+
+except:
+  print('''
+  input must be a number between 1-6
+  ''')
+  exit()
+
+if field not in [1,2,3,4,5,6]: 
+    print('''
+    input must be a number between 1-6
+    ''')
+    exit()
+else:
+    table.sortby = table.field_names[field + 1]
+    table.reversesort = True
+    print(table)
