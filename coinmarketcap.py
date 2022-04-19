@@ -11,7 +11,7 @@ headers = {
 
 listings_data = requests.get(listings_api,headers=headers).json()
 listings_data = listings_data['data']
-#print(listings_data)
+
 
 table = PrettyTable()
 table.field_names = ['Name', 'Symbol', 'Price', 'Volume', 'MarketCap', 'Change 1h',
@@ -24,6 +24,7 @@ for coin in listings_data:
     symbol = coin['symbol']
     coin_data = coin['quote']['USD']
 
+
     table.add_row([name,
                    symbol,
                    coin_data['price'],
@@ -32,7 +33,8 @@ for coin in listings_data:
                    coin_data['percent_change_1h'],
                    coin_data['percent_change_24h'],
                    coin_data['percent_change_7d']])
+    
 
-table.sortby = table.field_names[6]
+table.sortby = table.field_names[4]
 table.reversesort = True
 print(table)
