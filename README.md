@@ -8,6 +8,7 @@ download repo and input commands ``` python3 coinmarketcap.py ``` in the root fo
 (for demonstration purposes only top 10 cryptocurrencies are shown)
 
 <img src='./price-sort.png'>
+<img src='./price-sort-cmc.PNG'>
 
 <img src='./marketcap-sort.png'>
 
