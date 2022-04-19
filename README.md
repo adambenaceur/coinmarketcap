@@ -1,4 +1,4 @@
-# coinmarketcap
+# coinmarketcap <img src='./CMC.png#gh-light-mode-only'/> 
 
 ### Overview: 
 program that parses through coinmarketcap api using `python`, `requests`, and `prettyable` to generate the top 100 cryptocurrencies
